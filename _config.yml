@@ -1,0 +1,41 @@
+title: BuddySync | Blog
+description: Tech Enthusiasm at its Peak.
+social_link: instagram
+social_username: rajputaashu25
+github_repo: BuddyBlog
+github_username: Dev7083
+theme_color: black
+remote_theme: internet-de-france/swiss
+baseurl: /BuddyBlog
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      category_name: ''
+  - scope:
+      path: ''
+      type: posts
+    values:
+      categories: ''
+remote_theme_layouts:
+  - ''
+  - default
+  - page
+  - post
+  - home
+  - category_index
+social_links:
+  - twitter
+  - instagram
+  - medium
+  - dribbble
+theme_colors:
+  - black
+  - blue
+  - gray
+  - magenta
+  - orange
+  - red
+  - white
+  - yellow
